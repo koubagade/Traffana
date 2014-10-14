@@ -47,5 +47,5 @@ Output format:
 	
 2. With verbose mode
 
-	Time_stamp #total_packets total_bytes #TCP_packets #UDP_packets #ICMP_packets #Other_packets 
+	Time_stamp  #total_packets total_bytes #TCP_packets #UDP_packets #ICMP_packets #Other_packets 
 
