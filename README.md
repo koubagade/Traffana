@@ -22,10 +22,15 @@ Tool name: Trafana
 
 Commands to run the tool:
 
-	Compilation:
-		gcc -Wall -o trafana KB_Assignment1.c -lpcap -lpthread
+1. Manual Compilation:
+
+		gcc -Wall -o trafana traffana.c -lpcap -lpthread
+
+2. Auto compilation:
+
+		make
 		
-	Execution: 
+3.Execution: 
 		sudo ./trafana -r[input_filename] -T[Epoch_time] -w [output_filename] -v
 		
 	Options:
