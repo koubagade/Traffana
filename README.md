@@ -42,8 +42,10 @@ Commands to run the tool:
 	
 Output format:
 1. Without verbose mode
+
 	Time_stamp  #total_packets total_bytes
 	
 2. With verbose mode
+
 	Time_stamp #total_packets total_bytes #TCP_packets #UDP_packets #ICMP_packets #Other_packets 
 
